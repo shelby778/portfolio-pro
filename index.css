@@ -11,7 +11,7 @@ h2{
 }
 
 p{
- font-size:20px;
+ font-size:25px;
  margin-right:350px;
 }
 
@@ -23,7 +23,11 @@ body{
 a{
     font-size:25px;
     text-decoration:none;
-    color:rgb(24, 32, 11);
+    color:rgb(33, 44, 15);
+}
+
+a:hover{
+   color:rgb(224, 248, 185);
 }
 
 .center{
@@ -54,6 +58,10 @@ h3{
     padding:20px 46px;
 }
 
+.button:hover {
+    background-color:rgb(160, 31, 31)
+}
+
 .center-btn{
     margin: 0;
     position: absolute;
@@ -61,3 +69,27 @@ h3{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.button-2{
+    background-color:rgb(88, 124, 26);
+    border:none;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    font-size:20px;
+    margin:20px 900px;
+    cursor:pointer;
+    padding:14px 40px; 
+}
+
+.button-2:hover{
+    background-color:rgb(15, 56, 15)
+}
+/* Mobile Devices */
+@media only screen and (max-width:480px){
+    
+}
+
+/* Tablet and Desktop Devices */
+@media only screen and (min-width:481px){}
