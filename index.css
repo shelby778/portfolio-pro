@@ -57,6 +57,7 @@ h3{
     margin:4px 2px;
     cursor:pointer;
     padding:20px 46px;
+    font-weight:bold;
 }
 
 .button:hover {
