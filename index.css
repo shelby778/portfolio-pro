@@ -1,29 +1,30 @@
 header{
     text-align:center;
     font-size:40px;
-    background-color: rgb(90, 175, 108);
+    background-color: rgba(101, 102, 101, 0.555);
     text-decoration: none;
 }
 
 h2{
-    font-size:45px;
-    color:rgb(83, 82, 82);
+    font-size:70px;
+    color:rgb(255, 255, 255);
+    margin-top:0;
 }
 
 body{
-    background-color:rgb(241, 227, 93);
+    background:linear-gradient(to bottom, rgb(21, 238, 202),rgb(13, 177, 13));
     font-family: 'Josefin Sans', sans-serif;
 }
 
 a{
     font-size:25px;
     text-decoration:none;
-    color:rgb(33, 44, 15);
+    color:rgb(253, 253, 253);
     margin-left:10px;
 }
 
 a:hover{
-   color:rgb(224, 248, 185);
+   color: rgb(11, 252, 212);
 }
 
 .center{
@@ -33,17 +34,28 @@ a:hover{
 }
 
 .bottom{
-    background-color: rgb(90, 175, 108);
+    background-color: rgba(101, 102, 101, 0.555);
     bottom:20%;
 }
 
 h3{
+    color:rgb(0, 0, 0);
+    font-size:45px;
+}
+
+h4{
     font-size:40px;
+    color:floralwhite
+}
+
+p{
+    color:rgb(44, 43, 40);
 }
 
 .button{
     background-color:red;
     border:none;
+    border-radius: 15px;
     color:white;
     text-align:center;
     text-decoration:none;
@@ -60,7 +72,7 @@ h3{
 }
 
 .button-2:hover{
-    background-color:rgb(15, 56, 15)
+    background-color:rgb(24, 136, 136)
 }
 /* Mobile Devices */
 @media only screen and (max-width:480px){
@@ -68,7 +80,7 @@ h3{
         margin:0;
         margin: 0;
         position: absolute;
-        top:45%;
+        top:10%;
         left: 25%;
     }
     p{
@@ -81,14 +93,15 @@ h3{
         height:225px;
     }
     .button-2{
-        background-color:rgb(88, 124, 26);
+        background-color:rgb(6, 8, 1);
         border:none;
+        border-radius:15px;
         color:white;
         text-align:center;
         text-decoration:none;
         display:block;
         font-size:20px;
-        margin:20px 150px;
+        margin:20px 140px;
         cursor:pointer;
         padding:14px 40px; 
     }
@@ -98,6 +111,11 @@ h3{
         -webkit-flex-flow:column;
         flex-flow:column;
     }
+
+    h1{
+        font-size:90px;
+        color:floralwhite;
+    }
 }
 
 /* Tablet and Desktop Devices */
@@ -105,9 +123,9 @@ h3{
     .center-btn{
         margin: 0;
         position: absolute;
-        top:30%;
+        top:25%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -200%);
     }
     p{
         font-size:25px;
@@ -117,15 +135,21 @@ h3{
         height:315px;
     }
     .button-2{
-        background-color:rgb(88, 124, 26);
+        background-color:rgb(6, 8, 1);
         border:none;
+        border-radius: 15px;
         color:white;
         text-align:center;
         text-decoration:none;
         display:block;
         font-size:20px;
-        margin:20px 900px;
+        margin:20px 850px;
         cursor:pointer;
         padding:14px 40px; 
+    }
+
+    h1{
+        font-size:200px;
+        color:floralwhite;
     }
 }
